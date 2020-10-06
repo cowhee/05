@@ -4,19 +4,20 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
+	
 	int n;
 	
-	printf("정수를 입력하시오.:"); 
+	printf("정수를 입력하시오\n");
 	scanf("%d", &n);
-	 
+	
 	if(n>0){
-		printf("%d는양수\n", n);
+		printf("양수입니다.");
 	}
-	else if(n==0){
-		printf("%d는0\n", n);
+    else if(n==0){
+		printf("0입니다.");
 	}
-	else {
-		printf("%d는음수\n", n);
+	else{
+		printf("음수입니다.");
 	}
 	return 0;
 }
