@@ -19,5 +19,6 @@ int main(int argc, char *argv[]) {
 	else {
 		printf("%d´ÂÀ½¼ö\n", n);
 	}
+
 	return 0;
 }
